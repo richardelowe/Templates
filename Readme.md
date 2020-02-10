@@ -16,7 +16,10 @@ Set up git on your own machine and clone the following repos:
 ## Existing Templates
 
 - [DBQuery](./DBQuery)
-
+- [JMSPublisher](./JMSPublisher)
+- [JMSSubscriber](./JMSSubscriber)
+- [MQTTPublisher](./MQTTPublisher)
+- [MQTTSubscriber](./MQTTSubscriber)
 
 ## Status 
 

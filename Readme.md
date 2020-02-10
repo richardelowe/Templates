@@ -15,6 +15,9 @@ Set up git on your own machine and clone the following repos:
 
 ## Existing Templates
 
+- [DBQuery](./DBQuery)
+
+
 ## Status 
 
 Work in Progress

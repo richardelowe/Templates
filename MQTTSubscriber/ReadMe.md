@@ -1,4 +1,4 @@
-# DBQuery Template
+# MQTTSubscriber Template
 
 This DB Query template provides an integration pattern for running a DB Query from a sub process. The top level can be configured for any type of transport. Error Handling is already set up.
 

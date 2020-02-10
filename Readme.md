@@ -13,6 +13,8 @@ Set up git on your own machine and clone the following repos:
 - Projects
 - Deployment
 
+## Existing Templates
+
 ## Status 
 
 Work in Progress

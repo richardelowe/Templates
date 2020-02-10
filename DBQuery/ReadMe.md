@@ -4,7 +4,7 @@ This DB Query template provides an integration pattern for running a DB Query fr
 
 ## Initial setup
 
-- Follow generic developer setup instructions in the Templates [../ReadMe.md]
+- Follow generic developer setup instructions in the Templates [ReadMe.md](../ReadMe.md)
 - Run the following to create the initial Workspace and import the CommonUtils Shared Module
 
     `init.sh <ApplicationName> <DockerImageName>`

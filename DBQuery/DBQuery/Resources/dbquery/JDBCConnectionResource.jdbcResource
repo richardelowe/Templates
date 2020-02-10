@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_vRq28EshEeqBaswrBQ1dUA" name="dbquery.JDBCConnectionResource" type="jdbc:JdbcDataSource">
+  <jndi:reference xmi:id="_vR3rQEshEeqBaswrBQ1dUA" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_vR3rQUshEeqBaswrBQ1dUA">
+    <substitutionBindings xmi:id="_8pDu0EshEeqBaswrBQ1dUA" template="username" propName="/DBQuery/DBUser"/>
+    <substitutionBindings xmi:id="_87YN4EshEeqBaswrBQ1dUA" template="password" propName="/DBQuery/DBPassword"/>
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_vR45YEshEeqBaswrBQ1dUA" jdbcDriver="tibcosoftwareinc.jdbc.postgresql.PostgreSQLDriver">
+      <substitutionBindings xmi:id="_72cmIEshEeqBaswrBQ1dUA" template="dbURL" propName="/DBQuery/DBUrl"/>
+    </connectionConfig>
+  </jndi:configuration>
+</jndi:namedResource>

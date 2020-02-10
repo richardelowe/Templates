@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_ULkzYEshEeqBaswrBQ1dUA" targetNamespace="http://tns.tibco.com/bw/composite/DBQuery" name="DBQuery" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_UpGc4EshEeqBaswrBQ1dUA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UpOYsEshEeqBaswrBQ1dUA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UpSDEEshEeqBaswrBQ1dUA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UpVGYEshEeqBaswrBQ1dUA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UpYwwEshEeqBaswrBQ1dUA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UpcbIEshEeqBaswrBQ1dUA" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_UpfecEshEeqBaswrBQ1dUA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_-BStEEshEeqBaswrBQ1dUA" name="/DBQuery/DBUser" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="__7pg8EshEeqBaswrBQ1dUA" name="/DBQuery/DBPassword" type="property:password" scaext:simpleValue="#!SpdP1KvBad8v4qihguXfSg==" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_AA_7AEsiEeqBaswrBQ1dUA" name="/DBQuery/DBUrl" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_UZukIEshEeqBaswrBQ1dUA" name="ComponentRESTService" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_UZvyQEshEeqBaswrBQ1dUA" processName="dbquery.RESTService"/>
+  </sca:component>
+</sca:composite>
